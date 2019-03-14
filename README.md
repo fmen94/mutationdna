@@ -1,6 +1,6 @@
 # Mutation DNA 🚀
 
-Prueba tecnica de adn
+Prueba tecnica detacta mutaciones en el adn
 
 ## Descripcion
 
