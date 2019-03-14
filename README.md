@@ -40,7 +40,7 @@ y porbarlos en su servidor local
 
 ## Rutas que se pueden probar en local 🖇️
 
-Puede probar en las siguientes url
+#Puede probar en las siguientes url
 Con un método Post y en enviando en el body:
 ```
 {
@@ -60,6 +60,28 @@ regrersa el conteo de las pruebas que han realizado
 {“count_mutations”:40, “count_no_mutation”:100: “ratio”:0.4}
 
 ```
+## Rutas que se pueden probar en el servidor 🖇️
+
+#Puede probar en las siguientes url
+Con un método Post y en enviando en el body:
+```
+{
+“dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+}
+```
+```
+https://mutationdna.herokuapp.com/mutation
+```
+Con un método Get 
+```
+https://mutationdna.herokuapp.com/stats
+```
+regrersa el conteo de las pruebas que han realizado 
+```
+{“count_mutations”:40, “count_no_mutation”:100: “ratio”:0.4}
+
+```
+
 ### Realizado por 📌
 
 Fernando Mendez Rios
